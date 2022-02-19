@@ -95,9 +95,8 @@ p {
   justify-content: flex-start;
   align-items: center;
   /* border: 1px solid #f06529; */
-  /* border-radius: 5px; */
-  /* border: none; */
-  margin: 7px 0;
+  border: none;
+  margin: 10px 0;
   padding: 1rem;
   outline: none;
   border-radius: 48px;
@@ -107,7 +106,6 @@ p {
 
 .btn:hover {
   cursor: pointer;
-  /* background-color: #37e9bb; */
   background: linear-gradient(145deg, #37e9bb, #37e9ba8c);
   color: #1f1147;
 }
