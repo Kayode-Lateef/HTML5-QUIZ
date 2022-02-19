@@ -141,7 +141,11 @@ p {
 
 .quiz-repeat {
   text-align: center;
+  width: 178px;
   margin: 0 auto;
+  border-radius: 48px;
+  background: linear-gradient(145deg, #21124c, #1c0f40);
+  box-shadow: 5px 5px 0px #0c071c, -5px -5px 0px #321b72;
 }
 
 .quiz-repeat a,
@@ -150,15 +154,16 @@ p {
   font-weight: 600;
   color: #fff;
   text-decoration: none;
-  background-color: #6949fd;
   padding: 1rem;
-  border-radius: 5px;
+  border-radius: 48px;
   transition: all 0.3s;
+ 
 }
 
-.quiz-repeat a:hover,
-.quiz-repeat i:hover {
+.quiz-repeat a:hover{
   background-color: #32167c;
+  background: linear-gradient(145deg, #21124c, #1c0f40);
+  box-shadow: 5px 5px 0px #0c071c, -5px -5px 0px #321b72;
 }
 
 footer {
