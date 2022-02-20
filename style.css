@@ -110,6 +110,10 @@ p {
   color: #1f1147;
 }
 
+@media (hover: none) {
+    .btn:hover { color: inherit; }
+}
+
 .btn:active {
   background-color: #37e9bb;
 }
