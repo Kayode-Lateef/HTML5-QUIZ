@@ -112,9 +112,9 @@ p {
 
 
 @media (hover: hover){
-    
+   
     .btn:hover{
-        background: #1f1147;
+        background:#37e9bb;
     }
   .btn:active {
   background-color: #37e9bb;
