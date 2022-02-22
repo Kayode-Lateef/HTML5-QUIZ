@@ -113,14 +113,12 @@ p {
 @media (hover: hover) {
  .btn:hover {
   cursor: pointer;
-  background: linear-gradient(145deg, #37e9bb, #37e9ba8c);
   color: #1f1147;
 }
 }
 @media (hover: none) {
   .btn:active {
   cursor: pointer;
-  color: #1f1147;
 }
 }
 
