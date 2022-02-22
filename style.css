@@ -110,17 +110,16 @@ p {
   color: #1f1147;
 }
 
-@media (hover: hover) {
- .btn:hover {
-  cursor: pointer;
-  color: #1f1147;
+
+@media (hover: hover){
+    
+    .btn:hover{
+        background: linear-gradient(145deg, #37e9bb, #37e9ba8c);
+   
+    }
+    
 }
-}
-@media (hover: none) {
-  .btn:active {
-  cursor: pointer;
-}
-}
+
 
 .btn:active {
   background-color: #37e9bb;
