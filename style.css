@@ -113,7 +113,9 @@ p {
 
 
 .btn:active {
-  background-color: #37e9bb;
+ /*   background-color: #37e9bb;*/
+     /* background: linear-gradient(145deg, #37e9bb, #37e9ba8c);*/
+  background: linear-gradient(145deg, #37e9bb, #37e9ba8c);
 }
 
 
